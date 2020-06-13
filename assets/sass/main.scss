@@ -1,3 +1,15 @@
+// ==============================
+// Variables requiring Go templating
+// ==============================
+
+$font-heading: {{ $.Site.Params.heading_font | default "'Roboto', sans-serif" }};
+$font-body: {{ $.Site.Params.body_font | default "'Roboto', sans-serif" }};
+
+
+// ==============================
+// Imports
+// ==============================
+
 @import "_custom/custom";
 @import "_variables";
 
