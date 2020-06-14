@@ -35,7 +35,7 @@ $deputy-color: nth($theme-color-list, 2) !default;
 
 // ========== Color ========== //
 $black: #0a0a0a !default;
-$white: #fefefe !default;
+$white: #fff !default;
 $light-gray: #e6e6e6 !default;
 $gray: #cacaca !default;
 $dark-gray: #8a8a8a !default;
@@ -75,6 +75,37 @@ $global-headings: (
   h5: 14px,
   h6: 14px
 ) !default;
+
+// ========== Email ========== //
+#mc_embed_signup {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#mc_embed_signup h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: $theme-color;
+}
+
+#mc_embed_signup {
+  border-top: 1px solid $light-gray;
+}
+
+#mce-EMAIL {
+  width: 50%;
+  text-align: center;
+}
+
+#mc_embed_signup input.button {
+  margin-top: 15px;
+  background-color: $theme-color;
+  color: $deputy-color;
+  box-shadow: none;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 10px;
+}
 
 
 // ========== Header ========== //

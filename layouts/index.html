@@ -6,6 +6,8 @@
       {{ .Render "summary" }}
     {{ end -}}
   </section>
+
+  
   <!-- pagination -->
   <nav class="pagination">
     {{ with $paginator.Prev -}}
@@ -21,4 +23,5 @@
       </a>
     {{- end }}
   </nav>
+
 {{- end -}}
